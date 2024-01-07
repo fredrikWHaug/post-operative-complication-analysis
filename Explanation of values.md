@@ -1,31 +1,62 @@
 Explanation of values
 =====================
 
+
 Variable ICD10kap
 -----------------
 
 Explanation: ICD10-letter of primary diagnosis on the hospital episode containing the operation
+
 Type: Categorical
 
-Here are the meanings of the letters S, M, D, I, and K in ICD-10-CM:
 
-S: The letter 'S' in ICD-10-CM is used for codes related to injuries, poisonings, and certain other consequences of external causes.
+A: InfectParasitic
 
-M: The letter 'M' is used for codes related to diseases of the musculoskeletal system and connective tissue.
+C: Neoplasms
 
-D: The letter 'D' is used for codes related to neoplasms (tumors), as well as diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism.
+D: BloodImmuno
 
-I: The letter 'I' is used for codes related to diseases of the circulatory system.
+E: EndoNutriMetabol
 
-K: The letter 'K' is used for codes related to diseases of the digestive system.
+G: Nervous
+
+I: Circulatory
+
+J: Respiratory
+
+K: Digestive
+
+L: Skin
+
+M: MusculoConn
+
+N: Genitourinary
+
+R: SymptomsSigns
+
+S: InjurPoisonings
+
+T: ExternalCauses
+
+Z: HealthcareContact
 
 
 Variable HovedInngrepGrp
 ------------------------
 
 Explanation: Main procedure performed of the operation - First letter (NCSP)
+
 Type: Categorical
-Values: N,P,K,J
+
+N: Nervous
+
+P: PeripheralLymph
+
+K: UrinaryGenitalRetro
+
+J: DigestiveLiver
+
+### Verbose
 
 N: The Nervous System
 
@@ -40,5 +71,9 @@ Variable AnestesiGrp
 --------------------
 
 Explanation: Primary anesthetic code of operation (NCMP)
+
 Type: Categorical
+
 Values: WDAG, WDAJ, WDAL
+
+
