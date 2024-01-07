@@ -39,6 +39,18 @@ T: ExternalCauses
 Z: HealthcareContact
 
 
+Variable Undergruppe_operasjonskorGrp
+-------------------------------------
+
+Explanation: Classification of the operation
+
+Orto Traume ØH Ankel/Fot ---> OrthoTraumaER Ankle/Foot
+
+Aortakirurgi ---> AorticSurgery
+
+Galleveier ---> BiliaryTract
+
+
 Variable HovedInngrepGrp
 ------------------------
 
