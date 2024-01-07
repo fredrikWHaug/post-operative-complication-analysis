@@ -7,8 +7,6 @@ Variable ICD10kap
 
 Explanation: ICD10-letter of primary diagnosis on the hospital episode containing the operation
 
-Type: Categorical
-
 
 A: InfectParasitic
 
@@ -46,8 +44,6 @@ Variable HovedInngrepGrp
 
 Explanation: Main procedure performed of the operation - First letter (NCSP)
 
-Type: Categorical
-
 N: Nervous
 
 P: PeripheralLymph
@@ -72,8 +68,6 @@ Variable AnestesiGrp
 
 Explanation: Primary anesthetic code of operation (NCMP)
 
-Type: Categorical
-
-Values: WDAG, WDAJ, WDAL
-
-
+WDAG-General
+WDAJ-Spinal
+WDAL-Epidural
